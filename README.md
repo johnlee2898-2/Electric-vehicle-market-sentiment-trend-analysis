@@ -43,7 +43,7 @@ Setup enviroment:
 How to run:
 -
 execute main.py
-   -- python3.10 main.py, a window will prompt, including query input field, sentiment trend diagam displaying area, search and sentiment analysis buttons, search results display area. First please input any EV related queries like "EV", "Electric vehicle tesla", "Electric vehicle range", "EV battery life" etc.
+   -- python3.10 main.py, a window will prompt, the UI interface inludes query input field, sentiment trend diagam displaying area, "Search" and "Draw Sentiment Trend" buttons, search results display area. First please input any EV related queries like "EV", "EV Electric vehicle", "Electric vehicle tesla", "Electric vehicle range", "EV battery life" etc. Once the search results are generated, it will display on the result displaying area, then please click the "Draw Sentiment Trend" button to generate the 
 
 
 UI interface:
