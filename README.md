@@ -51,8 +51,12 @@ First, please change the project base directory in main.py to your real location
 PROJECT_BASE_DIR = "/home/XXX/UIUC-CS410/Course_project/CS410-Course-Project-submit-version"    # change this to your real location 
 
 
-execute main.py
-   -- python3.10 main.py, a window will prompt, the UI interface inludes query input field, sentiment trend diagam displaying area, "Search" and "Draw Sentiment Trend" buttons, search results display area. First please input any EV related queries like "EV", "EV Electric vehicle", "Electric vehicle tesla", "Electric vehicle range", "EV battery life" etc. Once the search results are generated, it will display on the result displaying area, then please click the "Draw Sentiment Trend" button to generate the sentiment trend diagram.
+execute main.py   -- python3.10 main.py
+
+<img width="1250" height="94" alt="image" src="https://github.com/user-attachments/assets/43d8785b-baaf-4fe9-94c7-d575328e42dc" />
+
+
+A window will prompt, the UI interface inludes query input field, sentiment trend diagam displaying area, "Search" and "Draw Sentiment Trend" buttons, search results display area. First please input any EV related queries like "EV", "EV Electric vehicle", "Electric vehicle tesla", "Electric vehicle range", "EV battery life" etc. Once the search results are generated, it will display on the result displaying area, then please click the "Draw Sentiment Trend" button to generate the sentiment trend diagram.
 
 Operation sequence:
 
