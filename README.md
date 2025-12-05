@@ -61,3 +61,14 @@ UI interface:
 
 Implementation:
 -
+Python, Html, Javascript
+
+Numpy, Pandas, Pyserini
+
+BeautifulSoup,  Praw
+
+Tkinter, Matplotlib, Seaborn
+
+
+
+
