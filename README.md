@@ -35,6 +35,7 @@ Setup enviroment:
    -- pip install pyserini;
    -- pip install seaborn;
    -- pip install beautifulsoup4;
+   -- pip install lxml
    -- pip install praw;
 
 
