@@ -9,10 +9,15 @@ This project will build a tool to get the electric vehicle market sentiment tren
 Setup enviroment:
 -
 1. Create a virtual environment
+
    -- python3.10 -m venv myenv
-2. Activate the environment
+   
+3. Activate the environment
+   
    -- source myenv/bin/activate
-3. Install packages inside the venv
+   
+5. Install packages inside the venv
+   
    -- pip install --upgrade pip
    -- pip install pyserini
    -- pip install seaborn
