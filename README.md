@@ -62,6 +62,20 @@ Operation sequence:
 Execute the python file:  $ python3.10 main.py >>> On UI interface, input queries  >>> click "Search" button  >>> Once search results displayed, click "Draw Sentiment Trend" button, wait some time until sentiment trend displayed.
 
 
+How to re-generate data?
+-
+Delete file "project directory/data/scrapedEvNews/scrapedEvNews.dat"
+(Note: only delete the file scrapedEvNews.dat, but keep the direcotry: "project directory/data/scrapedEvNews/")r
+
+Delete directory:    "project directory/processed_corpus/scrapedEvNews", after deletion it will look like "./processed_corpus"
+
+Delete directory:    "project directory/indexes/scrapedEvNews", after deletion it will look like "project directory/indexes"
+
+Re-execute main.py   -- python3.10 main.py
+
+<img width="1250" height="91" alt="image" src="https://github.com/user-attachments/assets/eb068535-4a9b-4b5d-b7dd-d5a1467a8030" />
+
+
 UI interface:
 -
 <img width="1852" height="1160" alt="image" src="https://github.com/user-attachments/assets/089a4000-6e47-4743-86f7-2c9618093074" />
