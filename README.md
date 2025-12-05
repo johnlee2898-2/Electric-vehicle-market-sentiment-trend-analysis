@@ -48,6 +48,8 @@ execute main.py
 
 UI interface:
 -
+<img width="1852" height="1160" alt="image" src="https://github.com/user-attachments/assets/bb45c3af-67ac-44e5-9e8c-06cc8851e60f" />
+
 <img width="1544" height="477" alt="image" src="https://github.com/user-attachments/assets/af123077-6420-48e9-a7a6-df0ee3969feb" />
 
 
