@@ -1,13 +1,13 @@
 # EV-market-sentiment-trend-analysis
 CS410 course project at UIUC. Jiwen Li (NetId: jiwenli2) 
 
-  
+<br><br> 
 Project Description:
 -
 This project will build a tool to get the electric vehicle market sentiment trend analysis based on real-time data from some well-known internet news platforms and social media platforms. Sentiment analysis for the EV market involves using data—often text—to measure how people feel and what they think about electric vehicles, including related brands, policies, technologies, and market trends, in order to understand overall perception and future demand. Within this tool, user can input queries to generate ranked search results, a built-in AI model will classify sentiment for each search result as positive, negative, or neutral, based on accumulated sentiment data, the tool will produce a sentiment trend diagram covering the most recent five years, allowing users to observe how public perception has shifted over time. 
 
 
-  
+<br><br>  
 Data sources:
 -
 1. News article platforms:
@@ -19,7 +19,7 @@ Data sources:
    Reddit
 
 
-  
+<br><br>  
 Setup enviroment:
 -
 1. Create a virtual environment
@@ -40,13 +40,13 @@ Setup enviroment:
    -- pip install praw;
 
   
-  
+<br><br>  
 Project directory:
 -
 <img width="467" height="356" alt="image" src="https://github.com/user-attachments/assets/ab343153-b7b4-4cfa-980d-8fb0135df80a" />
    
 
-  
+<br><br>  
 How to run:
 -
 First, please change the project base directory in main.py to your real location on your computer:
@@ -64,7 +64,7 @@ Operation sequence:
 
 Execute the python file:  $ python3.10 main.py >>> On UI interface, input queries  >>> click "Search" button  >>> Once search results displayed, click "Draw Sentiment Trend" button, wait some time until sentiment trend displayed.
 
-  
+<br><br>  
 How to re-generate data?
 -
 Delete file "project directory/data/scrapedEvNews/scrapedEvNews.dat"
@@ -80,14 +80,13 @@ Re-execute main.py   -- python3.10 main.py
 
 
 
-
-      
+<br><br>
 UI interface:
 -
 <img width="1852" height="1160" alt="image" src="https://github.com/user-attachments/assets/089a4000-6e47-4743-86f7-2c9618093074" />
  
 
-  
+<br>
 <img width="1544" height="477" alt="image" src="https://github.com/user-attachments/assets/af123077-6420-48e9-a7a6-df0ee3969feb" />
 
 
@@ -96,7 +95,7 @@ UI interface:
 
 
 
-    
+<br><br>    
 Implementation:
 -
 Python, Html, Javascript
