@@ -41,6 +41,7 @@ Setup enviroment:
    -- pip install beautifulsoup4;
    -- pip install lxml
    -- pip install praw;
+   -- pip install requests
 
   
 <br>
