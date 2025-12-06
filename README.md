@@ -53,7 +53,7 @@ Project directory:
 <img width="467" height="356" alt="image" src="https://github.com/user-attachments/assets/ab343153-b7b4-4cfa-980d-8fb0135df80a" />
    
 
-<br>
+<br><br>
 
 How to run:
 -
@@ -105,7 +105,7 @@ UI interface:
 
 
 
-<br>
+<br><br>
 
 Implementation:
 -
