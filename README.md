@@ -38,6 +38,7 @@ Setup enviroment:
    -- pip install --upgrade pip;
    -- pip install pyserini;
    -- pip install seaborn;
+   -- pip install pandas
    -- pip install beautifulsoup4;
    -- pip install lxml
    -- pip install praw;
