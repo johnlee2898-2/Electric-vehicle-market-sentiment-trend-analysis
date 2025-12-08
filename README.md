@@ -23,7 +23,7 @@ Data sources:
 
 <br>
 
-Setup enviroment:
+Setup environment:
 -
 1. Create a virtual environment
 
