@@ -55,7 +55,9 @@ $ pip install lxml
 $ pip install praw;
 $ pip install requests
 $ pip install torch torchvision torchaudio
+$ pip install faiss-cpu
 $ sudo apt install python3-tk
+
 ```
 
 
