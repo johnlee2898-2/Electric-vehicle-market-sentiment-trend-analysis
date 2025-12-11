@@ -119,8 +119,9 @@ $ python3.10 main.py
 #### 5. Once search results are generated, click "Draw Sentiment Trend" button, wait some time, a system built-in AI model will conduct sentiment label inference for each search result, once complete, a sentiment trend diagram will show up.
 
 
----
+
 <br>
+---
 
 How to re-generate data?
 -
