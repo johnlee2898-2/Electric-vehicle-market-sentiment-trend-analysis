@@ -13,16 +13,15 @@
 This project will build a tool to get the electric vehicle market sentiment trend analysis based on real-time data from some well-known internet news article platforms. Sentiment analysis for the EV market involves using data—often text—to measure how people feel and what they think about electric vehicles, including related brands, policies, technologies, and market trends, in order to understand overall perception and future demand. Within this tool, user can input queries to generate ranked search results, a built-in AI model will classify sentiment for each search result as positive, negative, or neutral, based on accumulated sentiment data, the tool will produce a sentiment trend diagram covering the most recent five years, allowing users to observe how public perception has shifted over time. 
 
 ##
-- Data exploration and collection: explore using BeautifulSoup scraping for news platform or API for social media platform (Twitter, Reddit), will compare them to select the best one or two sources.
-- Data preprocessing: data cleaning, data conversion, manipulation, and curation.
-- Text ranking and retrieval: BM25/BM25+Rocchio pseudo-relevance feedback or Faiss modeling or hybrid search, will compare the performance to select the best one.
-- Sentiment analysis: HuggingFace large language model (LLM) pre-trained model, may need to explore multiple LLM models to select the best one.
-- Visualization: Matplotlib, Seaborn to show three trend metrics (Positive, Negative, Neutral) over time covering most recent 6 years.
-- May need to modify the Pyserini and Anserini libraries or figure out a workaround to accommodate the time stamp information.
+- Collect EV relevant data from multiple data sources, using BeautifulSoup framework to scrape data from news article platforms, support collect data from social media like Reddit, but subject to the praw API usage permission
+- Data preprocessing: data cleaning, data conversion, manipulation, and curation. Consolidate all collected data into one text corpus file.
+- Use BM25 to do the text retrieval and ranking.
+- Sentiment trend diagram needs lots of data, use sentimentBert AI model to do the sentiment label inference.
+- Visualization: Use Matplotlib to show three trend metrics (Positive, Negative, Neutral) over time covering most recent 6 years (2020 -2026).
+- Find a way to accommodate time information to generate trend diagram.
 <br>
 
 ## Data sources:
-News article platforms:
   
   - BusinessInsider news
   
