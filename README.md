@@ -24,7 +24,7 @@ This project will build a tool to get the electric vehicle market sentiment tren
 
 
 <br>
-
+---
 ## Data sources:
 News article platforms:
   
