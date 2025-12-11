@@ -28,7 +28,8 @@ This project will build a tool to get the electric vehicle market sentiment tren
 ## Data sources:
 News article platforms:
   
-   BusinessInsider news,  CBS news
+  - BusinessInsider news
+  - CBS news
    
 
 
