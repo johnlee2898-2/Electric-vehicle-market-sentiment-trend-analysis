@@ -387,24 +387,24 @@ def main():
    
     # Directories where the processed corpus and index will be stored for toolkit
     # 1> BM25
-    # processed_corpus_dir = f"processed_corpus/{cname}"
+    processed_corpus_dir = f"processed_corpus/{cname}"
     # 2> Faiss - Dense Retrieval Model
-    processed_corpus_dir = f"processed_corpus/{cname}-faiss"
+    # processed_corpus_dir = f"processed_corpus/{cname}-faiss"
    
     os.makedirs(processed_corpus_dir, exist_ok=True)
    
     # 1> BM25
-    # index_dir = f"indexes/{cname}"
+    index_dir = f"indexes/{cname}"
     # 2> Faiss - Dense Retrieval Model
-    index_dir = f"indexes/{cname}-faiss"
+    # index_dir = f"indexes/{cname}-faiss"
 
     # Preprocess corpus
     if not os.path.exists(processed_corpus_dir) or not os.listdir(processed_corpus_dir):
         # 1> BM25
-        # preprocess_corpus(corpus_file, processed_corpus_dir)
+        preprocess_corpus(corpus_file, processed_corpus_dir)
         # 2> Faiss - Dense Retrieval Model
         # preprocess_corpus_faiss(corpus_file, processed_corpus_dir)
-        preprocess_corpus(corpus_file, processed_corpus_dir)
+        # preprocess_corpus(corpus_file, processed_corpus_dir)
     else:
         print(f"Preprocessed corpus already exists at {processed_corpus_dir}. Skipping preprocessing.")
     # return
@@ -413,24 +413,24 @@ def main():
     os.makedirs(index_dir, exist_ok=True)
 
     # 1> BM25
-    # build_index(processed_corpus_dir, index_dir)
+    build_index(processed_corpus_dir, index_dir)
     # 2> Faiss - Dense Retrieval Model
-    build_index_faiss(processed_corpus_dir, index_dir)
+    # build_index_faiss(processed_corpus_dir, index_dir)
    
 
     # Search
     # 1> BM25
-    # searcher = LuceneSearcher(index_dir)
+    searcher = LuceneSearcher(index_dir)
 
     # 2> Faiss - Dense Retrieval Models
-    encoder = TctColBertQueryEncoder('castorini/tct_colbert-v2-hnp-msmarco')
-    faiss_searcher = FaissSearcher(index_dir, encoder)
+    # encoder = TctColBertQueryEncoder('castorini/tct_colbert-v2-hnp-msmarco')
+    # faiss_searcher = FaissSearcher(index_dir, encoder)
 
 
     """======= Set Ranking Hyperparameters======="""
     #Algorithm 1: BM25 
     #bm25:  b must be [0, 1]
-    # searcher.set_bm25(k1=0.9, b=0.33)
+    searcher.set_bm25(k1=0.9, b=0.33)
     """========================================="""
 
 
@@ -517,18 +517,18 @@ def perform_search():
     cname = "scrapedEvNews"
 
     # 1> BM25 :  default 
-    # index_dir = f"indexes/{cname}"
+    index_dir = f"indexes/{cname}"
     # 2> Faiss - Dense Retrieval Models
-    index_dir = f"indexes/{cname}-faiss"
+    # index_dir = f"indexes/{cname}-faiss"
 
     # Search
     # 1> BM25 :  default 
-    # searcher = LuceneSearcher(index_dir)
-    # searcher.set_bm25(k1=0.9, b=0.33) 
+    searcher = LuceneSearcher(index_dir)
+    searcher.set_bm25(k1=0.9, b=0.33) 
 
     # 2> Faiss - Dense Retrieval Models
-    encoder = TctColBertQueryEncoder('castorini/tct_colbert-v2-hnp-msmarco')
-    faiss_searcher = FaissSearcher(index_dir, encoder)
+    # encoder = TctColBertQueryEncoder('castorini/tct_colbert-v2-hnp-msmarco')
+    # faiss_searcher = FaissSearcher(index_dir, encoder)
 
     query_id_start = {
         "scrapedEvNews": 0,
@@ -539,9 +539,9 @@ def perform_search():
     # In a real application, you would perform your search logic here
     # e.g., searching a list, a database, or an external API
     # 1> BM25 :  default 
-    # results = search(searcher, [query], top_k=5000, query_id_start=query_id_start)
+    results = search(searcher, [query], top_k=5000, query_id_start=query_id_start)
     # 2> Faiss - Dense Retrieval Models
-    results = search(faiss_searcher, [query], top_k=5000, query_id_start=query_id_start)
+    # results = search(faiss_searcher, [query], top_k=5000, query_id_start=query_id_start)
 
     resultList = list(results.values())[0]
     raw_contents_json_obj = [item[2] for item in resultList]
