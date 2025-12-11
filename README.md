@@ -114,12 +114,12 @@ PROJECT_BASE_DIR = "/home/XXX/UIUC-CS410/Course_project/CS410-Course-Project-sub
 $ python3.10 main.py
 ```
 
-### 4. After about 5 minutes data scraping, a window will prompt, first input queries, e.g., you can input "EV", "EV Electric vehicle", "Electric vehicle tesla", "Electric vehicle range", "EV battery life" etc. Then click "Search" button.
+#### 4. After about 5 minutes data scraping, a window will prompt, first input queries, e.g., you can input "EV", "EV Electric vehicle", "Electric vehicle tesla", "Electric vehicle range", "EV battery life" etc. Then click "Search" button.
 
-### 5. Once search results are generated, click "Draw Sentiment Trend" button, wait some time, a system built-in AI model will conduct sentiment label inference for each search result, once complete, a sentiment trend diagram will show up.
+#### 5. Once search results are generated, click "Draw Sentiment Trend" button, wait some time, a system built-in AI model will conduct sentiment label inference for each search result, once complete, a sentiment trend diagram will show up.
 
 
-
+---
 <br>
 
 How to re-generate data?
