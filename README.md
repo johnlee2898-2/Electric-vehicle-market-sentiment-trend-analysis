@@ -22,7 +22,7 @@
 ## Project overview:
 This project will build a tool to get the electric vehicle market sentiment trend analysis based on real-time data from some well-known internet news article platforms. Sentiment analysis for the EV market involves using data—often text—to measure how people feel and what they think about electric vehicles, including related brands, policies, technologies, and market trends, in order to understand overall perception and future demand. Within this tool, user can input queries to generate ranked search results, a built-in AI model will classify sentiment for each search result as positive, negative, or neutral, based on accumulated sentiment data, the tool will produce a sentiment trend diagram covering the most recent five years, allowing users to observe how public perception has shifted over time. 
 
----
+
 <br>
 
 ## Data sources:
@@ -62,6 +62,33 @@ Setup environment:
 Project directory:
 -
 <img width="467" height="356" alt="image" src="https://github.com/user-attachments/assets/ab343153-b7b4-4cfa-980d-8fb0135df80a" />
+
+---
+
+## Project Structure
+
+```text
+Electric-vehicle-market-sentiment-trend-analysis/
+│
+├── data/
+    └── scrapedEvNews             # Directory which save the scrapped converged data  
+        └── scrapedEvNews.dat     # File to save all raw data
+│── indexes
+        └── scrapedEvNews         # All generated indexes will be saved here
+├── instruction.md
+├── main.py                       # This is the python file contains all source code
+├── processed_corpus
+│   └── scrapedEvNews             # Processed corpus
+│
+├── storage/                      # This dir contains some local storage to save labels which will be used to distinquish the different data sources
+│   ├── first_corpus_counter.pkl
+│   ├── second_corpus_counter.pkl
+│   └── third_corpus_counter.pkl
+├── LICENSE
+└── README.md                     
+
+
+---
    
 
 <br><br>
