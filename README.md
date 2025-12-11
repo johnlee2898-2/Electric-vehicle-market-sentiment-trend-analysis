@@ -1,5 +1,11 @@
 # EV-market-sentiment-trend-analysis
-CS410 course project at UIUC. Jiwen Li (NetId: jiwenli2) 
+
+-
+2025 Fall CS410 Final Project — University of Illinois Urbana-Champaign
+Instructor: Prof. ChengXiang Zhai
+Project Author: Jiwen Li
+NetID: jiwenli2
+Email: jiwenli2@illinois.edu
 
 <br>
 
