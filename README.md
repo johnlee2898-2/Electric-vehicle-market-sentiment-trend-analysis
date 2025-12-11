@@ -29,6 +29,7 @@ This project will build a tool to get the electric vehicle market sentiment tren
 News article platforms:
   
   - BusinessInsider news
+  
   - CBS news
    
 
@@ -37,28 +38,29 @@ News article platforms:
 
 Setup environment:
 -
-1. Create a virtual environment
+## 1. Create a virtual environment
 
 ```text
 $ python3.10 -m venv myenv
 ```
    
-3. Activate the environment
-   
-   -- source myenv/bin/activate
-   
-5. Install packages inside the venv
-   
-   -- pip install --upgrade pip;
-   -- pip install pyserini;
-   -- pip install seaborn;
-   -- pip install pandas
-   -- pip install beautifulsoup4;
-   -- pip install lxml
-   -- pip install praw;
-   -- pip install requests
-   -- pip install torch torchvision torchaudio
+## 2. Activate the environment
+```text
+$ source myenv/bin/activate
+```
 
+## 3. Install packages inside the venv
+```text   
+$ pip install --upgrade pip;
+$ pip install pyserini;
+$ pip install seaborn;
+$ pip install pandas
+$ pip install beautifulsoup4;
+$ pip install lxml
+$ pip install praw;
+$ pip install requests
+$ pip install torch torchvision torchaudio
+```
 
 
 <br>
