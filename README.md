@@ -1,11 +1,22 @@
-# EV-market-sentiment-trend-analysis
 
--
-2025 Fall CS410 Final Project — University of Illinois Urbana-Champaign
-Instructor: Prof. ChengXiang Zhai
-Project Author: Jiwen Li
-NetID: jiwenli2
-Email: jiwenli2@illinois.edu
+<h1 align="center">Electric vehicle market sentiment trend analysis</h1>
+
+<p align="center">
+  <strong>2025 Fall CS410 Final Project — University of Illinois Urbana-Champaign</strong><br>
+  <strong>Instructor: Prof. ChengXiang Zhai<br>
+  <strong>Project Author: Jiwen Li <br>
+  <strong>NetID: jiwenli2<br>
+  <strong>Email: jiwenli2@illinois.edu<br>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.10-blue?logo=python&logoColor=white">
+  <img src="https://img.shields.io/badge/Groq-LLM-orange">
+  <img src="https://img.shields.io/badge/RAG-System-green">
+  <img src="https://img.shields.io/badge/FAISS-Indexing-blue">
+</p>
+
+---
 
 <br>
 
