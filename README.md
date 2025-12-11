@@ -38,18 +38,18 @@ News article platforms:
 
 Setup environment:
 -
-## 1. Create a virtual environment
+# 1. Create a virtual environment
 
 ```text
 $ python3.10 -m venv myenv
 ```
    
-## 2. Activate the environment
+# 2. Activate the environment
 ```text
 $ source myenv/bin/activate
 ```
 
-## 3. Install packages inside the venv
+# 3. Install packages inside the venv
 ```text   
 $ pip install --upgrade pip;
 $ pip install pyserini;
