@@ -39,9 +39,9 @@ Setup environment:
 -
 1. Create a virtual environment
 
-'''text
+```text
 $ python3.10 -m venv myenv
-'''
+```
    
 3. Activate the environment
    
