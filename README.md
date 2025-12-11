@@ -15,7 +15,7 @@ This project will build a tool to get the electric vehicle market sentiment tren
 ##
 - Collect EV relevant data from multiple data sources, using BeautifulSoup framework to scrape data from news article platforms, support collect data from social media like Reddit, but subject to the praw API usage permission
 - Data preprocessing: data cleaning, data conversion, manipulation, and curation. Consolidate all collected data into one text corpus file.
-- Use BM25 to do the text retrieval and ranking.
+- Use BM25 to do the text retrieval and ranking, compared with dense retrieval technique Faiss.
 - Sentiment trend diagram needs lots of data, use sentimentBert AI model to do the sentiment label inference.
 - Visualization: Use Matplotlib to show three trend metrics (Positive, Negative, Neutral) over time covering most recent six years (2020 -2025).
 - Accommodate date time information to generate trend diagram.
