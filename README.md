@@ -73,11 +73,13 @@ Electric-vehicle-market-sentiment-trend-analysis/
 │    └── scrapedEvNews            # Directory which save the scrapped converged data  
 │        └── scrapedEvNews.dat    # File to save all raw data
 │── indexes
-│        └── scrapedEvNews        # All generated indexes will be saved here
+│        ├── scrapedEvNews        # All generated BM25 indexes will be saved here
+│        └── scrapedEvNews-faiss  # FAISS index
 ├── instruction.md
 ├── main.py                       # This is the python file contains all source code
 ├── processed_corpus
-│   └── scrapedEvNews             # Processed corpus
+│   ├── scrapedEvNews             # BM25 Processed corpus
+│   └── scrapedEvNews-faiss       # FAISS Processed corpus
 │
 ├── storage/                      # Local storage to save labels to distinquish different data sources
 │   ├── first_corpus_counter.pkl
