@@ -57,30 +57,26 @@ Setup environment:
    -- pip install torch torchvision torchaudio
 
 
----
+
 <br>
 
-Project directory:
--
-
-
-
+---
 ## Project Structure
 
 ```text
 Electric-vehicle-market-sentiment-trend-analysis/
 │
 ├── data/
-    └── scrapedEvNews             # Directory which save the scrapped converged data  
-        └── scrapedEvNews.dat     # File to save all raw data
+    └── scrapedEvNews            # Directory which save the scrapped converged data  
+        └── scrapedEvNews.dat    # File to save all raw data
 │── indexes
-        └── scrapedEvNews         # All generated indexes will be saved here
+        └── scrapedEvNews        # All generated indexes will be saved here
 ├── instruction.md
-├── main.py                       # This is the python file contains all source code
+├── main.py                      # This is the python file contains all source code
 ├── processed_corpus
-│   └── scrapedEvNews             # Processed corpus
+│   └── scrapedEvNews            # Processed corpus
 │
-├── storage/         # Local storage to save labels which will be used to distinquish different data sources
+├── storage/                     # Local storage to save labels which will be used to distinquish different data sources
 │   ├── first_corpus_counter.pkl
 │   ├── second_corpus_counter.pkl
 │   └── third_corpus_counter.pkl
