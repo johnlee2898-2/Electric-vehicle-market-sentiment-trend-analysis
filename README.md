@@ -97,12 +97,22 @@ Electric-vehicle-market-sentiment-trend-analysis/
 
 How to run:
 -
-First, please change the project base directory in main.py to your real location on your computer:
+## 1. Pull project repository to your local computer
+```text
+$ git clone git@github.com:johnlee2898-2/Electric-vehicle-market-sentiment-trend-analysis.git
+$ cd Electric-vehicle-market-sentiment-trend-analysis
+```
 
+## 2. Change the project base directory to your real location on your computer:
+in main.py:
+```text
 PROJECT_BASE_DIR = "/home/XXX/UIUC-CS410/Course_project/CS410-Course-Project-submit-version"    # change this to your real location 
+```
 
-
-execute main.py   -- python3.10 main.py
+## 3. Execute main.py
+```text
+$ python3.10 main.py
+```
 
 <img width="1250" height="91" alt="image" src="https://github.com/user-attachments/assets/eb068535-4a9b-4b5d-b7dd-d5a1467a8030" />
 
