@@ -46,19 +46,21 @@ $ source myenv/bin/activate
 
 ### 3. Install packages inside the venv
 ```text   
-$ pip install --upgrade pip;
-$ pip install pyserini;
-$ pip install seaborn;
+$ pip install --upgrade pip
+$ pip install pyserini
+$ pip install seaborn
 $ pip install pandas
-$ pip install beautifulsoup4;
+$ pip install beautifulsoup4
 $ pip install lxml
-$ pip install praw;
+$ pip install praw
 $ pip install requests
 $ pip install torch torchvision torchaudio
 $ pip install faiss-cpu
 $ sudo apt install python3-tk
 $ sudo apt install python3-pip
 $ pip3 install requests
+$ pip install torch --index-url https://download.pytorch.org/whl/cpu
+
 
 ```
 
